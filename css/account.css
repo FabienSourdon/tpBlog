@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav section */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: crimson;
+    display: flex;
+}
+
+.logo, .logo>a{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+}
+
+.logo>a>img{
+    width: 25%;
+    margin: 10px;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: wheat;
+    font-size: 20px;
+}
+
+.menu>form>input{
+    width: 130px;
+    height: 35px;
+}
+
+.menu>form>button{
+    width: 75px;
+    height: 35px;
+    margin: 0 10px;
+}
+
+.create{
+    width: 10%;
+    height: 100%;
+    border-left: 1px solid wheat;
+    margin-left: 5px;
+}
+
+.create>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+
+/* Articles section */
+
+.articles{
+    width: 100%;
+    height: 85%;
+}
+
+/* Foot section */
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p{
+    font-size: 30px;
+    color: wheat;
+}

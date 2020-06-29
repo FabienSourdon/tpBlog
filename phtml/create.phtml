@@ -1,0 +1,17 @@
+<div class="articles">
+    <h1>Créer un compte</h1>
+    <?php 
+        if($_SESSION){
+            echo('
+                <p>Compte créé avec succès</p>
+            ');
+        }
+    ?>
+    <form action="signUp.php" method="post">
+        <label for="creaL">Login : </label>
+        <input type="text" id="creaL" name="creaL" required>
+        <label for="creaP">Password :</label>
+        <input type="password" id="creaP" name="creaP" required>
+        <button type="submit">create</button>
+    </form>
+</div>

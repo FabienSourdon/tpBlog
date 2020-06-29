@@ -1,0 +1,15 @@
+<div class="articles">
+    
+        <?php foreach($article as $art){
+            echo('
+            <div class="art">
+            <h1>'.$art['titre'].'</h1>
+            <img src="'.$art['image'].'" alt="photo-article-'.$art['id'].'">
+            <p>'.$art['contenu'].'</p>
+            <p>par '.$art['userLog'].', le '.$art['date'].'</p>
+            </div>
+            ');
+        }
+        ?>
+    
+</div>
