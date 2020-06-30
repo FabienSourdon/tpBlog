@@ -1,7 +1,7 @@
 <div class="articles">
     <h1>Créer un compte</h1>
     <?php 
-        if($_SESSION){
+        if($_SESSION['logged']){
             echo('
                 <p>Compte créé avec succès</p>
             ');
